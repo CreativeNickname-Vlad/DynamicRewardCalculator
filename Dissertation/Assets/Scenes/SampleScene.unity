@@ -13941,7 +13941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 150
-  _defence: 20
+  _defence: 50
   _eLevel: 30
   _healthComb: 0
   _defenceComb: 0
