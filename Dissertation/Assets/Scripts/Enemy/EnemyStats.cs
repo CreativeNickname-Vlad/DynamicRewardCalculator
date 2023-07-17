@@ -39,14 +39,9 @@ public class EnemyStats : MonoBehaviour
     [Header("Enemy Animator")]
     public Animator _eAnimator;
 
-    /// <summary>
-    /// Amour set and weapon only have 3 different values for demonstartion purposes.
-    /// 0 == Beginer weapon/armour set      \ x 1.2 multiplyer 
-    /// 1 == Adventurer weapon/armour set   \ x 1.5 multiplyer
-    /// 2 == Hero weapon/armour set         \ x 2 multiplyer
-    /// This will only calculate based on the enemy if the player is overgeareg. To simplify it if PlayerGear > EnemyGear = BadLootChance and GoodLootChance If > is reversed (<)
-    /// </summary>
-    /// 
+   /// <summary>
+   /// Enemy weapon was substituted for enemy type
+   /// </summary>
 
     public void Start()
     {

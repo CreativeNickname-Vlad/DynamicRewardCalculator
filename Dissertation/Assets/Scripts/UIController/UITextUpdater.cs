@@ -14,4 +14,12 @@ public class UITextUpdater : MonoBehaviour
 
         buttonController.StatTextUpdate();
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) == true)
+        {
+            Application.Quit();
+        }
+    }
 }

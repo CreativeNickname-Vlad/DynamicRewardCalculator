@@ -57,6 +57,11 @@ public class RewardCalculator : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Timeer function got removed due to further complications and issues, as there would need to now be a certain margins for 
+    /// max time in fight and min time in fight, which became quite difficult to manage
+    /// </summary>
+
     public void PlayerLevelChecker()
     {
         if (playerStats._pLevel < 6)
@@ -109,8 +114,7 @@ public class RewardCalculator : MonoBehaviour
     }
 
     /// <summary>
-    /// As I removed the value of the enemy to have a weapon, the type of weapon will be
-    /// compared to the type of enemy.
+    /// As the weapon value for the enemy weapon had been removed it was removed with enemy type.
     /// This was done as the simulation needs to yeild a resoult no matter of the current 
     /// stats, therefore the enemys ability to attack was removed. But it can be simply added
     /// NOTE: Further refinment will be required on the statments as this is uses the ArmourDifChecker

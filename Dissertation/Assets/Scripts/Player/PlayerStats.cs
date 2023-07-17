@@ -64,19 +64,13 @@ public class PlayerStats : MonoBehaviour
     public Animator _pAnimator;
 
     /// <summary>
-    /// Amour set and weapon only have 3 different values for demonstartion purposes.
+    /// Amour set and weapon only have 3 different values for demonstartion purposes (armour has a set value while in the text at the botton its displayed the weapon dmg multiplyer) .
     /// 0 == Beginer weapon/armour set      \ x 1.2 multiplyer 
     /// 1 == Adventurer weapon/armour set   \ x 1.5 multiplyer
     /// 2 == Hero weapon/armour set         \ x 2 multiplyer
     /// This will only calculate based on the enemy if the player is overgeareg. To simplify it if PlayerGear > EnemyGear = BadLootChance and GoodLootChance If > is reversed (<)
     /// </summary>
 
-
-    /// <summary>
-    /// This is a bool as its only a simulation if the player were to use things like : potions, consumables, usable items that may deal dmgs. This can be as well swapped with a calcuation that checks damage has been
-    /// dealt to the enemy : if over 90% of dmg has been done purly by player == GoodLootChance and reversed if the dmg to enemy has been dealt above 50% from consumable items == BadLoot Chance
-    /// Similar logic can be used for consumables that affect the player : check for any buffs on the player, check starting health, and if a potion had been consumed.
-    /// <summary>
 
 
     public void Start()
