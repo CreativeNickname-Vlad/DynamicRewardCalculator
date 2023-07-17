@@ -5872,7 +5872,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.2182917, y: 0.09070453}
   m_AnchorMax: {x: 0.36056256, y: 0.20700002}
-  m_AnchoredPosition: {x: 17.499756, y: -0.8998413}
+  m_AnchoredPosition: {x: 17.499756, y: -0.89990234}
   m_SizeDelta: {x: -173, y: -16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &772406874
@@ -7985,7 +7985,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5622916, y: 0.09070453}
   m_AnchorMax: {x: 0.70552087, y: 0.20700002}
-  m_AnchoredPosition: {x: 5.5, y: -0.99993896}
+  m_AnchoredPosition: {x: 5.5, y: -1}
   m_SizeDelta: {x: -175, y: -16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1094051551
@@ -8137,7 +8137,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 680f37060c97ae74688d9ac935563a45, type: 2}
     - target: {fileID: 919132149155446097, guid: 9d394c48a63f3fa47aa679358e5464f1, type: 3}
       propertyPath: m_Name
-      value: Peasant_All
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d394c48a63f3fa47aa679358e5464f1, type: 3}
@@ -10605,7 +10605,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.4015625, y: 0.09070453}
   m_AnchorMax: {x: 0.5472916, y: 0.20700002}
-  m_AnchoredPosition: {x: 2.5, y: -0.99993896}
+  m_AnchoredPosition: {x: 2.5, y: -1}
   m_SizeDelta: {x: -181, y: -16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1468685471
@@ -15534,7 +15534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 25fb5fe5f36eae944b6b4a0a70101dc7, type: 3}
       propertyPath: m_Name
-      value: Bear_All_Animations
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25fb5fe5f36eae944b6b4a0a70101dc7, type: 3}
@@ -17508,7 +17508,7 @@ GameObject:
   - component: {fileID: 3469287838067376493}
   - component: {fileID: 1711813855078135207}
   m_Layer: 0
-  m_Name: obj_chestOpen_body
+  m_Name: RewardChest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
