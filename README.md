@@ -2,7 +2,9 @@
 Dynamic Reward Calculotor for Dissertation work
 
 CONTROLS: 
+
 ESC KEY - Quits the application
+
 Buttons on screen :
     Player level increase(+)/decrease(-)
     Enemy  health increase(+)/decrease(-)
@@ -10,6 +12,7 @@ Buttons on screen :
     System controols order :
       STATS CALCULATOR BUTTON -> REWARD CALCULATOR BUTTON -> REWARD SPAWN BUTTON
       NOTE: The buttons can be pressed out of sequence but will not yield a propper outcome.
+      
 Dropdown bars on screen:
   PLAYER: 
     - STAMINA    - This has effect on the overal damage of the player
