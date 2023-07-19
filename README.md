@@ -1,8 +1,7 @@
 # DynamicRewardCalculator
 Dynamic Reward Calculotor for Dissertation work
 
-Project files are located in the folder named Dissertation
-A fully functioning build of the project is located in the folder Build
+Project files are located in the folder named Artefact -> Project_files. There is as well a foulder called Build containing the latested build version of the project
 
 CONTROLS: 
 
